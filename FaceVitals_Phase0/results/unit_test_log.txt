@@ -1,0 +1,9 @@
+test_bandedge_resampling (test_benchmark.BenchmarkTests.test_bandedge_resampling) ... ok
+test_clean_synthetic_pulse (test_benchmark.BenchmarkTests.test_clean_synthetic_pulse) ... ok
+test_invalid_input (test_benchmark.BenchmarkTests.test_invalid_input) ... ok
+test_reproducibility (test_benchmark.BenchmarkTests.test_reproducibility) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.019s
+
+OK

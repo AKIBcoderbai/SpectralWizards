@@ -1,0 +1,1 @@
+dataset_id,subject_id,clip_id,video_path,reference_file,reference_type,reference_device,frame_rate,frame_timestamp_file,lighting_lux,camera_device,bitrate_kbps,resolution,skin_tone_measure,age_band,gender_optional,consent_and_license_status,experiment_split,notes

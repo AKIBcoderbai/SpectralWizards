@@ -1,0 +1,25 @@
+          scenario method  n_total   mae_bpm  failure_rate_gt5_pct
+       10fps_trace  GREEN       35  0.032960              0.000000
+       10fps_trace    PCA       35  0.033578              0.000000
+       10fps_trace    POS       35  0.070543              0.000000
+       10fps_trace  CHROM       35  0.074296              0.000000
+color_illumination    PCA       35 34.456507             91.428571
+color_illumination  CHROM       35 34.457896             91.428571
+color_illumination    POS       35 34.458205             91.428571
+color_illumination  GREEN       35 34.459689             91.428571
+        controlled    PCA       35  0.037072              0.000000
+        controlled  GREEN       35  0.039058              0.000000
+        controlled    POS       35  0.066211              0.000000
+        controlled  CHROM       35  0.066496              0.000000
+   low_light_proxy  GREEN       35  0.368652              0.000000
+   low_light_proxy    PCA       35  2.149977              5.714286
+   low_light_proxy  CHROM       35 17.794702             42.857143
+   low_light_proxy    POS       35 19.139788             48.571429
+   motion_artifact  CHROM       35  0.058330              0.000000
+   motion_artifact    POS       35  0.083831              0.000000
+   motion_artifact  GREEN       35 20.683101             82.857143
+   motion_artifact    PCA       35 20.687758             82.857143
+  weak_pulse_proxy    PCA       35  0.134990              0.000000
+  weak_pulse_proxy  GREEN       35  0.141955              0.000000
+  weak_pulse_proxy    POS       35  1.805140              8.571429
+  weak_pulse_proxy  CHROM       35  3.506203             14.285714

@@ -1,0 +1,3 @@
+ALL FILES IN THIS results/ DIRECTORY are from simulated RGB mean traces, not video frames, real users, skin tones, ECG, SpO2, or BP.
+Numbers are NOT official IEEE competition scores, failure rates on human subjects, or evidence of clinical/field performance.
+The 5-bpm failure threshold is a user-defined engineering threshold.

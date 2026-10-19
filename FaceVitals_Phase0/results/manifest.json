@@ -1,0 +1,26 @@
+{
+  "seed": 2027,
+  "trials_per_scenario": 35,
+  "n_synthetic_clips": 210,
+  "n_predictions": 840,
+  "algorithms": [
+    "GREEN",
+    "CHROM",
+    "POS",
+    "PCA"
+  ],
+  "scenarios": [
+    "controlled",
+    "low_light_proxy",
+    "motion_artifact",
+    "color_illumination",
+    "10fps_trace",
+    "weak_pulse_proxy"
+  ],
+  "dataset_origin": "simulation_only; generated RGB means; no real videos, subjects, lux, SpO2 or BP",
+  "failure_rule": "abs(predicted_bpm-reference_bpm)>5 OR missing",
+  "computer_platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

@@ -1,0 +1,36 @@
+@page { size: A4; margin: 17mm 15mm 20mm 15mm;
+  @bottom-left { content: "FaceVitals 2027 | Phase 0 research notebook | 19 Oct 2026"; font-family: "DejaVu Sans"; font-size: 7pt; color: #63738a; }
+  @bottom-right { content: counter(page); font-family: "DejaVu Sans"; font-size: 7pt; color: #63738a; }
+}
+html { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9.5pt; line-height: 1.53; color: #223044; }
+body { margin: 0; }
+h1, h2, h3 { font-family: "DejaVu Sans"; color: #0f446c; break-after: avoid; }
+h1 { font-size: 21pt; margin-top: 17pt; margin-bottom: 8pt; padding-bottom: 5pt; border-bottom: 2pt solid #19a0a5; }
+h2 { font-size: 14pt; margin-top: 15pt; margin-bottom: 6pt; }
+h3 { font-size: 11.5pt; margin-top: 12pt; margin-bottom: 4pt; }
+h1:first-child { margin-top: 0; }
+p { margin: 5pt 0 8pt; orphans: 3; widows: 3; }
+ul, ol { padding-left: 21pt; }
+li { margin: 3pt 0; }
+blockquote { border-left: 3pt solid #7db1ce; margin-left: 7pt; padding-left: 11pt; color: #345; }
+strong { color: #102f4a; }
+a { color: #006c91; text-decoration: none; overflow-wrap: anywhere; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 8.2pt; overflow-wrap: anywhere; background: #f1f5f8; padding: .06em .22em; }
+pre { background: #eff5f8; border-left: 2.5pt solid #67b8bf; padding: 9pt; font-size: 7.9pt; line-height: 1.4; white-space: pre-wrap; overflow-wrap: anywhere; }
+pre code { background: transparent; }
+table { border-collapse: collapse; width: 100%; font-size: 7.65pt; line-height: 1.32; table-layout: auto; margin: 9pt 0 11pt; }
+th { background: #dceaf2; color: #173b57; font-weight: bold; }
+th, td { border: .6pt solid #c7d7e2; padding: 5pt 5.5pt; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+tr { break-inside: avoid; }
+tr:nth-child(even) td { background: #f8fafc; }
+img { max-width: 100%; max-height: 170mm; object-fit: contain; margin: 7pt auto; display: block; }
+figure { break-inside: avoid; margin: 12pt 0; }
+figcaption { text-align: center; color: #536d84; font-size: 8pt; }
+hr { border: 0; border-bottom: 1pt solid #d0dfe7; margin: 20pt 0; }
+#TOC { background: #f2f7fa; border: 1pt solid #d5e5ed; border-radius: 5pt; padding: 9pt 12pt; }
+#TOC a { color: #22516d; font-size: 8.5pt; }
+#TOC ul { margin: 2pt 0; }
+#title-block-header { padding: 30pt 8pt 17pt; background: #edf6f9; border-top: 9pt solid #2a9cab; border-bottom: 2pt solid #accbd9; margin-bottom: 20pt; }
+#title-block-header h1.title { font-size: 26pt; color: #103d5b; border: none; padding: 0; }
+#title-block-header .subtitle { font-size: 13pt; color: #35677c; }
+#title-block-header .date { color: #50667a; }
